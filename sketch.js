@@ -77,8 +77,8 @@ function draw() {
         image(myGirl, 0, 0, width / 2, height);
         image(myGirl2, width / 2, 0, width / 2, height);
         imageMode(CENTER);
-        image(myTrump, width / 2 - 250 - volume, height / 2, height / 5, volume * 5);
-        image(myTrump2, width / 2 + 250 + volume, height / 2, height / 5, volume * 5);
+        image(myTrump, width / 2 - 200 - volume, height / 2, height / 5, volume * 5);
+        image(myTrump2, width / 2 + 200 + volume, height / 2, height / 5, volume * 5);
         image(myGameboy, width / 2, height / 2, 375, 666);
         let myScreen = new RubyImage();
         myScreen.display();
@@ -191,8 +191,8 @@ function windowResized() {
         image(myGirl, 0, 0, width/2, height);
         image(myGirl2, width / 2, 0, width / 2, height);
         imageMode(CENTER)
-        image(myTrump, width / 2 - 250 - volume, height / 2, height / 5, volume * 5);
-        image(myTrump2, width / 2 + 250 + volume, height / 2, height / 5, volume * 5);
+        image(myTrump, width / 2 - 200 - volume, height / 2, height / 5, volume * 5);
+        image(myTrump2, width / 2 + 200 + volume, height / 2, height / 5, volume * 5);
         let myScreen = new RubyImage();
         myScreen.display();
     }
