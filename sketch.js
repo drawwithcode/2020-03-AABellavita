@@ -3,22 +3,22 @@ let n_img = 0;
 
 function preload(){
     // load images
-    myLoad = loadImage("../assets/images/myLoad.jpg");
-    myMenu = loadImage("../assets/images/myMenu.jpg");
-    myGirl = loadImage("../assets/images/myGirl.jpg");
-    myGirl2 = loadImage("../assets/images/myGirl2.jpg");
-    myFight = loadImage("../assets/images/myFight.png");
-    myRoute = loadImage("../assets/images/myRoute.png");
-    myStart = loadImage("../assets/images/myStart.png");
-    myTrump = loadImage("../assets/images/myTrump.png");
-    myTrump2 = loadImage("../assets/images/myTrump2.png");
-    myGameboy = loadImage("../assets/images/myGameboy.png");
+    myLoad = loadImage("assets/images/myLoad.jpg");
+    myMenu = loadImage("assets/images/myMenu.jpg");
+    myGirl = loadImage("assets/images/myGirl.jpg");
+    myGirl2 = loadImage("assets/images/myGirl2.jpg");
+    myFight = loadImage("assets/images/myFight.png");
+    myRoute = loadImage("assets/images/myRoute.png");
+    myStart = loadImage("assets/images/myStart.png");
+    myTrump = loadImage("assets/images/myTrump.png");
+    myTrump2 = loadImage("assets/images/myTrump2.png");
+    myGameboy = loadImage("assets/images/myGameboy.png");
     // load songs
-    startSong = loadSound("../assets/sounds/startSong.mp3");
-    fightSong = loadSound("../assets/sounds/fightSong.mp3");
-    introSong = loadSound("../assets/sounds/introSong.mp3");
-    themeSong = loadSound("../assets/sounds/themeSong.mp3");
-    routeSong = loadSound("../assets/sounds/routeSong.mp3");
+    startSong = loadSound("assets/sounds/startSong.mp3");
+    fightSong = loadSound("assets/sounds/fightSong.mp3");
+    introSong = loadSound("assets/sounds/introSong.mp3");
+    themeSong = loadSound("assets/sounds/themeSong.mp3");
+    routeSong = loadSound("assets/sounds/routeSong.mp3");
 }
 
 function setup() {
