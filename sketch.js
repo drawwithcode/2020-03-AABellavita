@@ -37,28 +37,28 @@ function setup() {
 
     // Button Play
     push();
-    buttonplay = createImg("../assets/images/myPlay.svg");
+    buttonplay = createImg("assets/images/myPlay.svg");
     buttonplay.style("width", "32px");
     buttonplay.position(width / 2 + 118, height / 2 + 122);
     buttonplay.mousePressed(playClicked);
     pop();
     // Button Pause
     push();
-    buttonpause = createImg("../assets/images/myPause.svg");
+    buttonpause = createImg("assets/images/myPause.svg");
     buttonpause.style("width", "32px");
     buttonpause.position(width / 2 + 52, height / 2 + 148);
     buttonpause.mousePressed(pauseClicked);
     pop();
     // Button Next
     push();
-    buttonnext = createImg("../assets/images/myNext.svg");
+    buttonnext = createImg("assets/images/myNext.svg");
     buttonnext.style("width", "32px");
     buttonnext.position(width / 2 - 72, height / 2 + 135);
     buttonnext.mousePressed(nextClicked);
     pop();
     // Button Back
     push();
-    buttonback = createImg("../assets/images/myBack.svg");
+    buttonback = createImg("assets/images/myBack.svg");
     buttonback.style("width", "32px");
     buttonback.position(width / 2 - 155, height / 2 + 135);
     buttonback.mousePressed(backClicked);
